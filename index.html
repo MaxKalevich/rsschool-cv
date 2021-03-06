@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>Maxim Kalevich CV Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7ddc544893.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <div class="content_container">
@@ -14,31 +17,49 @@
             <figcaption class="name_user">Maxim Kalevich</figcaption>
         </figure>
     </header>
-    <aside>
+    <aside class="contacts">
         <h2>Contacts</h2>
+        <ul class="contacts_info">
+            <li><i class="fas fa-sms icons"></i><a class="tel" href="tel:+375298970959">+375 (29) 897-09-59</a></li>
+            <li><i class="far fa-envelope icons"></i>maxkalevich@gmail.com</li>
+        </ul>
     </aside>
+        <aside class="social">
+            <h2>Social</h2>
+            <ul class="social_info">
+                <li><i class="fab fa-github icons git"></i><a href="https://github.com/MaxKalevich" target="_blank">github.com/MaxKalevich</a></li>
+                <li><i class="fab fa-vk icons vk"></i><a href="https://vk.com/maxim_kalevich" target="_blank">vk.com/maxim_kalevich</a></li>
+                <li><i class="fab fa-linkedin-in icons so linkedin"></i><a href="https://www.linkedin.com/in/maxim-kalevich-2b5302203" target="_blank">linkedin.com/in/maxim-kalevich</a></li>
+                <li><i class="fab fa-instagram icons so inst"></i><a href="https://www.instagram.com/maksimkalevich/" target="_blank">instagram.com/maksimkalevich</a></li>
+            </ul>
+        </aside>
+        <aside class="skills">
+            <h2>My Skills</h2>
+            <ul class="skills_info">
+                <li><i class="fab fa-html5 skills_icon sk"></i>HTML/CSS</li>
+                <li><i class="fab fa-js skills_icon sk js"></i>JAVASCRIPT</li>
+                <li><i class="fab fa-react skills_icon sk"></i>REACT/REDUX</li>
+                <li><i class="fab fa-npm skills_icon sk"></i>NPM</li>
+                <li><i class="fab fa-git-alt skills_icon sk"></i>GIT</li>
+            </ul>
+        </aside>
     </div>
     <div class="two">
-        <section>
+        <main class="about_me">
             <h2>About Me</h2>
-            <p>I’m a beginner front-end developer. Me very interested in this field of activity. I devote a lot of time to study and
+            <p class="me">I’m a beginner front-end developer. Me very interested in this field of activity. I devote a lot of time to study and
                 self-education in general. Purposeful and always ready to acquire new knowledge. I want to get a job as a front-end develo
                 per and do what I love and benefit others.</p>
-        </section>
+        </main>
         <section>
-            <h2>My Skills</h2>
-            <ul>
-                <li>HTML/CSS</li>
-                <li>JAVASCRIPT</li>
-                <li>REACT</li>
-                <li>REDUX</li>
-                <li>NPM</li>
-                <li>FIGMA</li>
-                <li>GIT</li>
-            </ul>
+            <h2></h2>
+
         </section>
         <section>
             <h2>Examples</h2>
+            <p><code>
+                import styled from "styled-components";
+            </code></p>
         </section>
         <section>
             <h2>Education</h2>

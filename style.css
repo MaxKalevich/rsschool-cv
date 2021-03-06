@@ -2,13 +2,13 @@ body {
     margin: 0;
     padding: 0;
     background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
 }
 
 
 .content_container {
     margin: 0 auto;
     width: 800px;
-    height: 1000px;
     background-color: white;
     display: flex;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
@@ -20,14 +20,16 @@ body {
 }
 
 .avatar_user img {
-   /* margin: 15px;
-    padding: 15px;*/
-    width: 300px;
+    width: 304px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
 }
 
 .name_user {
     display: block;
-    border: 2px solid red;
     width: 300px;
     text-align: center;
     height: 80px;
@@ -35,4 +37,121 @@ body {
     text-transform: uppercase;
     font-size: 27px;
     font-weight: bold;
+}
+
+.contacts h2, .social h2, .skills h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.one {
+    background-color: darksalmon;
+    color: whitesmoke
+}
+
+.icons {
+    color: brown;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+i {
+    font-size: 30px;
+}
+
+.vk {
+    margin-left: -5px;
+    margin-top: 2px;
+    color: royalblue;
+}
+
+.linkedin {
+    color: dodgerblue;
+}
+
+.contacts_info, .social_info {
+    list-style-type: none;
+}
+
+/*.icon::before {
+    content: "";
+    background-image: url(image/62818telephonereceiver_109303.svg);
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}*/
+
+.contacts_info a:nth-child(2) {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.about_me {
+    margin: 50px 5px 5px 15px;
+}
+
+.contacts_info li, .social_info li {
+    margin-left: -13px;
+}
+
+a:hover {
+    color: black;
+}
+
+.so {
+    margin-right: 8px;
+}
+
+.skills_info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -25px;
+}
+
+.sk {
+    margin-right: 12px;
+    font-size: 40px;
+}
+
+.skills_info li {
+    list-style-type: none;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+.skills_icon {
+    vertical-align: middle;
+}
+
+.skills_info li:nth-child(2) i {
+    color: yellow;
+}
+
+.skills_info li:nth-child(3) i {
+    color: darkslateblue;
+}
+
+.skills_info li:nth-child(4) i {
+    color: crimson;
+}
+
+.skills_info li:nth-child(1) i {
+    color: orangered;
+}
+
+.skills_info li:nth-child(5) i {
+    color: orangered;
+}
+
+.git, .inst {
+    color: black;
+}
+
+.me {
+    font-size: 18px;
 }

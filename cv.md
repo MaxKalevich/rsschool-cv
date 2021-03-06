@@ -37,3 +37,9 @@ Education
 -------------------------
 - [Belarusian State University physics faculty][1] 2011 - 2016 Bachelor's degree
 - Belarusian State University 2020 - 2022 Master's degree, Medical physicis
+
+Language
+-------------------------
+- I am in the stage of learning the language. At this stage, knowledge is level A1.
+
+[1]: https://bsu.by/en/structure/faculties/fizicheskiy-fakultet-d/

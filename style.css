@@ -14,6 +14,13 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
+.footer {
+    width: 800px;
+    margin: 0 auto;
+    background-color: darksalmon;
+    height: 80px;
+}
+
 .avatar_user {
     margin: 0;
     padding: 0;
@@ -50,6 +57,21 @@ a {
     color: whitesmoke
 }
 
+.code {
+    display: inline-block;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.code_example .code {
+    padding: 15px;
+}
+.two {
+    margin-left: 15px;
+}
+
 .icons {
     color: brown;
     vertical-align: middle;
@@ -63,11 +85,6 @@ i {
 .vk {
     margin-left: -5px;
     margin-top: 2px;
-    color: royalblue;
-}
-
-.linkedin {
-    color: dodgerblue;
 }
 
 .contacts_info, .social_info {
@@ -92,7 +109,7 @@ i {
 }
 
 .about_me {
-    margin: 50px 5px 5px 15px;
+    margin: 50px 5px 5px 5px;
 }
 
 .contacts_info li, .social_info li {
@@ -148,10 +165,17 @@ a:hover {
     color: orangered;
 }
 
-.git, .inst {
-    color: black;
+.me, .lang {
+    font-size: 18px;
 }
 
-.me {
-    font-size: 18px;
+.footer {
+    background-color: brown;
+}
+
+.footer_h {
+  color: whitesmoke;
+    padding-right: 45px;
+    margin-top: 40px;
+    float: right;
 }
